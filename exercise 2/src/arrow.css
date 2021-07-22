@@ -1,0 +1,8 @@
+svg {
+    transition: transform .3s ease;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+

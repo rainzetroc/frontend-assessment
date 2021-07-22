@@ -1,0 +1,20 @@
+.accordion {
+    /* border: 1px solid #000; */
+    border-top: none;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.37);
+}
+
+.accordion__content {
+    overflow-y: hidden;
+    transition: all .53s ease;
+    text-align: justify;
+}
+
+.accordion__header__button {
+    border: none;
+    width: fit-content;
+    background-color: transparent;
+
+}
+
+

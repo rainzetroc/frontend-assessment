@@ -1,0 +1,53 @@
+.hero-banner {
+  position: relative;
+  color: #fff;
+  min-height: 550px;
+}
+
+.hero-banner__overlay {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.329);
+  z-index: -1;
+}
+
+.hero-banner__background-image {
+  background-image: url(../../assets/images/desktop__banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -2;
+}
+
+.hero-banner__content__heading {
+  font-size: 5.2rem;
+}
+
+.hero-banner__content__text {
+  font-size: 2.75rem;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-banner {
+    min-height: 400px;
+  }
+
+  .hero-banner__background-image {
+    background-image: url(../../assets/images/mobile__banner.png);
+  }
+
+  .hero-banner__content__heading {
+    font-size: 3.75rem;
+  }
+
+  .hero-banner__content__text {
+    font-size: 1.75rem;
+  }
+}

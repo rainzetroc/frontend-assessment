@@ -1,0 +1,22 @@
+.card {
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.11);
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card__body {
+  max-width: 400px;
+}
+
+.card__body__text {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
